@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-27T18:17:55 IST" name="Suite" finished-at="2023-03-27T18:18:12 IST" duration-ms="16671">
+    <groups>
+    </groups>
+    <test started-at="2023-03-27T18:17:55 IST" name="Test" finished-at="2023-03-27T18:18:12 IST" duration-ms="16671">
+      <class name="rmspac.clusterUI">
+        <test-method is-config="true" signature="open()[pri:0, instance:rmspac.clusterUI@795cd85e]" started-at="2023-03-27T18:17:55 IST" name="open" finished-at="2023-03-27T18:18:07 IST" duration-ms="12048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="clusterUI()[pri:0, instance:rmspac.clusterUI@795cd85e]" started-at="2023-03-27T18:18:07 IST" name="clusterUI" finished-at="2023-03-27T18:18:12 IST" duration-ms="4591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clusterUI -->
+      </class> <!-- rmspac.clusterUI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

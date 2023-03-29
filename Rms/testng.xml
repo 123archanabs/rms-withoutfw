@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+
+  <classes>
+  
+  <class name="rmspac.Lauch">
+  <methods>
+      <include name='lauch'/>
+      <include name='quit'/>
+      <include name='logo'/>
+      </methods>
+  </class>
+  
+  <class name="rmspac.Login">
+  <methods>
+      <include name='loginDatadriven'/>
+      </methods>
+  </class>
+  
+  
+  <class name="rmspac.ResetPass">
+  <methods>
+      <include name='reset'/>
+      </methods>
+  </class>
+  
+  <class name="rmspac.clientmodule">
+  <methods>
+      <include name='addclient'/>
+      </methods>
+  </class>
+  
+  <class name="rmspac.Clienteditdelete">
+  <methods>
+      <include name='ClientEdit'/>
+      <include name='Clientdelete'/>
+      </methods>
+  </class>
+  
+   <class name="rmspac.clientsort">
+  <methods>
+      <include name='Clientsort'/>
+      </methods>
+  </class>
+  
+  
+   <class name="rmspac.ClientUI">
+  <methods>
+      <include name='clientui'/>
+      </methods>
+  </class>
+  
+  
+  
+  <class name="rmspac.Clusterdetailsadd">
+  <methods>
+      <include name='Clusterdetails'/>
+      </methods>
+  </class>
+  
+ <class name="rmspac.Clustereditdelete">
+  <methods>
+      <include name='aedit'/>
+      <include name='bclusterdelete'/>
+      </methods>
+  </class>
+  
+  
+  
+   <class name="rmspac.CusterSort">
+  <methods>
+      <include name='ClusterSort'/>
+      </methods>
+  </class>
+  
+  
+   <class name="rmspac.clusterUI">
+  <methods>
+      <include name='clusterUI'/>
+      </methods>
+  </class>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </classes>
+  
+  
+  
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
